@@ -1,0 +1,12 @@
+body{
+    background:radial-gradient(rgb(227, 236, 88),rgb(235, 128, 145));  
+}
+h1{
+    width:50%;
+    font-size:38px;
+    
+}
+p{
+    width:50%;
+    font-size: 22px;
+}

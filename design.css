@@ -1,0 +1,111 @@
+body{
+    background-color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.norm{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    word-spacing: 3px;
+}
+h1{
+    font-size: 20px;    
+    color: white;
+    margin-left:20px;
+}
+.opt{
+    background-color: WHITE;
+    border: 40pxpx;
+    border-radius: 20px;
+    color:black;
+    margin-left:20px;
+    padding:5px;
+    font-size: 15px;
+}
+.opt:hover{
+    background-color: blue;
+    border: 40pxpx;
+    border-radius: 20px;
+    color:white;
+    margin-left:20px;
+    padding:5px;
+    font-size: 17px;
+}
+.bot{
+    background-color: rgb(48, 48, 145);
+    width:55%;
+    border-radius: 25px;
+    box-shadow: 2px 3px 5px;
+    margin-top:25px;
+}
+.ques{
+    color:black;
+    font-size: 23px;
+    text-shadow: 2px 3px 4px wheat;
+    margin-top: 20px;
+
+}
+label{
+    color:black;
+    margin: 20px;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.dell{
+    background-color: rgb(10, 240, 10);
+    color:rgb(10, 240, 10);
+    box-shadow:1px 1px 1px;
+    height: 20px;
+    width:40px;
+    overflow: hidden;
+    border-radius: 20px;
+    transition: 2s ease;    
+}
+.dell:hover{
+    border:auto;
+    background-color: whitesmoke;
+    color:green;
+    box-shadow: 2px 3px 4px;
+    font-size: 25px;
+    height: auto;
+    width:350px;
+    justify-content: center;
+    align-content: center;
+    transition: 2s ease; 
+}
+span{
+    color: black;
+    font-size: larger;
+}
+button{
+    color: black;
+    font-size: 29px;
+    border-radius: 27px;
+    background-color: white;
+    border-color: red;
+    transition: .4s;
+    margin-top: 20px;
+}
+button:hover{
+    color: white;
+    font-size: 29px;
+    border-radius: 27px;
+    background-color: red;
+    border-color: black;
+    transition: .5s ease;
+    box-shadow: 5px 5px 8px rgb(235, 44, 44);
+    margin-top: 20px;
+}
+#dat{
+    margin-left: 15px;
+    border-radius: 20px;
+    padding: 3px;
+    background-color:white;
+    color:blue;
+    letter-spacing: 3px;
+    font-size: 16px;
+}
